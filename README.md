@@ -17,7 +17,7 @@
 
 ![Algorithm적용 예시 [요약1]](https://kkimsangheon.github.io/2017/06/29/where-are-you/where-are-you-finger1.jpg)
 
-핑거프린팅 기법은 사전에 측정된 각 좌표 별 비콘의 신호값을 토대로 현재 위치를 추측하는 기술입니다. 예를 들어 그림1과 같이 각 좌표 별 사전에 측정된 비콘의 신호값(RSSI)이 존재한다고 가정 해 보겠습니다.
+핑거프린팅 기법은 사전에 측정된 각 좌표 별 비콘의 신호값을 토대로 현재 위치를 추측하는 기술입니다. 예를 들어 위와같이 각 좌표 별 사전에 측정된 비콘의 신호값(RSSI)이 존재한다고 가정 해 보겠습니다.
 현재 위치에서 측정된 각 비콘의 RSSI 값이 B1: -86 B2: -91 B3: -100 일 때 Coordinate1에 대한 각 비콘 신호의 차이의 합을 구하면 (-86, -87과의 차이) + (-91, -90과의 차이) + (-100, -101과의 차이) 3입니다. 이 과정을 Coordinate2 또한 반복하면 결과값은 14이며 , Coordinate3 은 26입니다.
 이 중 오차가 가장 작은 즉 최소값을 갖는 좌표가 현재 위치라 판단할 수 있을 것 이므로 현재 위치는 Coordinate1이라 추측할 수 있겠습니다.
 
@@ -25,15 +25,15 @@
 # Result
 ![ClassID로 조회[그림1]](https://kkimsangheon.github.io/2017/06/29/where-are-you/where-are-you-result1.png) 
 
-ClassID로 조회하였을 경우 [그림1]과 같이 해당 User들이 최근에 위치한 좌표값을 확인할 수 있습니다.
+ClassID로 조회하였을 경우 위와같이 해당 User들이 최근에 위치한 좌표값을 확인할 수 있습니다.
 
 ![(이름,ClassID)로 조회[그림2]](https://kkimsangheon.github.io/2017/06/29/where-are-you/where-are-you-result2.png) 
 
-(이름,ClassID)로 조회하였을 경우 해당 User의 이동경로가 [그림2]와 같이 출력됩니다.
+(이름,ClassID)로 조회하였을 경우 해당 User의 이동경로가 위와같이 출력됩니다.
 
 ![카카오톡으로 조회[그림3]](https://kkimsangheon.github.io/2017/06/29/where-are-you/where-are-you-result3.png)
 
-User의 위치는 카카오톡 yelloID (ID:WhereAreYou)로도 확인이 가능한데 [그림3]과 같이 카카오톡을 이용하여 위치 조회가 가능합니다.
+User의 위치는 카카오톡 yelloID (ID:WhereAreYou)로도 확인이 가능한데 위와같이 카카오톡을 이용하여 위치 조회가 가능합니다.
 
 # 소스코드 (Github Repository)
 [-안드로이드 어플리케이션 소스코드](https://github.com/KKimSangHeon/Where_Are_You_Application)
