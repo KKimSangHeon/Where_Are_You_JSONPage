@@ -20,7 +20,7 @@
 
 
 # Result
-![로그인화면](./images/login.jpg) 
+![로그인화면](https://kkimsangheon.github.io/2017/06/29/where-are-you/where-are-you-system-architecture.jpg) 
 {% asset_img where-are-you-result1.png ClassID로 조회[그림1] %}
 ClassID로 조회하였을 경우 [그림1]과 같이 해당 User들이 최근에 위치한 좌표값을 확인할 수 있습니다.
 
