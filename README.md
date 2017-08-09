@@ -20,6 +20,7 @@
 
 
 # Result
+![로그인화면](./images/login.jpg) 
 {% asset_img where-are-you-result1.png ClassID로 조회[그림1] %}
 ClassID로 조회하였을 경우 [그림1]과 같이 해당 User들이 최근에 위치한 좌표값을 확인할 수 있습니다.
 
@@ -31,5 +32,7 @@ User의 위치는 카카오톡 yelloID (ID:WhereAreYou)로도 확인이 가능�
 
 # 소스코드 (Github Repository)
 [-안드로이드 어플리케이션 소스코드](https://github.com/KKimSangHeon/Where_Are_You_Application)
+
 [-카카오톡 자동응답 서버 소스코드](https://github.com/KKimSangHeon/Where_Are_You_KakaoServer)
+
 [-웹페이지 서버 소스코드](https://github.com/KKimSangHeon/Where_Are_You_JSONPage)
